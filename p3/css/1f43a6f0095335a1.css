@@ -1,0 +1,213 @@
+.dot_root__KtLgP {
+    border: 1px solid var(--color-corporate);
+    background-color: var(--color-white);
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 50ms ease-in-out, transform .1s ease-in-out;
+    transform: scale(0)
+}
+
+.dot_root__KtLgP.dot_reveal__L8AF2 {
+    opacity: 1;
+    transform: scale(1)
+}
+
+.dot_root__KtLgP .dot_innerCircle__1ZLIl {
+    display: block;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    background-color: var(--color-corporate);
+    border: .5px solid var(--color-corporate);
+    border-radius: 100%;
+    top: 6px;
+    left: 6px
+}
+
+.card_root__hPY_h {
+    width: 100%;
+    margin: 24px 0 48px;
+    opacity: 0;
+    transition: opacity .45s ease-in-out 50ms, transform .45s ease-in-out 50ms
+}
+
+@media(min-width:768px) {
+    .card_root__hPY_h {
+        margin: 24px 0 96px
+    }
+}
+
+.card_root__hPY_h.card_editor__IQWk_ {
+    margin: 48px auto
+}
+
+@media(min-width:768px) {
+    .card_root__hPY_h {
+        width: 45%
+    }
+}
+
+.card_root__hPY_h.card_right__msc4W {
+    transform: translateX(50px);
+    text-align: left
+}
+
+@media(min-width:768px) {
+    .card_root__hPY_h.card_right__msc4W {
+        float: right
+    }
+}
+
+.card_root__hPY_h.card_left__mVXXs {
+    transform: translateX(-50px);
+    text-align: right
+}
+
+.card_root__hPY_h.card_reveal__H1jyI {
+    opacity: 1;
+    transform: translateX(0)
+}
+
+.card_root__hPY_h .card_cardContainer__3AiTP .card_titleContainer__9v6R7 {
+    margin: 24px 0
+}
+
+.card_root__hPY_h img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.workflow_root__9CiiA {
+    max-width: 1740px;
+    position: relative;
+    padding: 24px 0;
+    margin: auto auto 72px;
+    opacity: 1;
+    transition: opacity .5s ease-in-out
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA {
+        margin: auto auto 120px
+    }
+}
+
+.workflow_root__9CiiA.workflow_loading__F5CBh {
+    opacity: 0
+}
+
+.workflow_root__9CiiA .workflow_line___KL3P {
+    stroke: var(--color-corporate);
+    position: absolute;
+    left: 10%
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA .workflow_line___KL3P {
+        left: 50%
+    }
+}
+
+.workflow_root__9CiiA.workflow_dots__MAOCD:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #d1004b;
+    border-radius: 100%;
+    position: absolute;
+    background: #d1004b;
+    top: 45px;
+    left: calc(10% - 2.5px)
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA.workflow_dots__MAOCD:before {
+        top: 20px;
+        left: calc(50% - 2.5px)
+    }
+}
+
+.workflow_root__9CiiA.workflow_dots__MAOCD:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #d1004b;
+    border-radius: 100%;
+    position: absolute;
+    background: #d1004b;
+    bottom: -48px;
+    left: calc(10% - 2.5px)
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA.workflow_dots__MAOCD:after {
+        left: calc(50% - 2.5px);
+        bottom: -25px
+    }
+}
+
+.workflow_root__9CiiA .workflow_workflowContainer__5RNqr {
+    margin: auto;
+    display: block;
+    position: relative
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA .workflow_workflowContainer__5RNqr {
+        display: flex;
+        flex-flow: column
+    }
+}
+
+.workflow_root__9CiiA .workflow_workflowContainer__5RNqr .workflow_cardContainer__W_rYL {
+    margin: auto
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA .workflow_workflowContainer__5RNqr .workflow_cardContainer__W_rYL.workflow_closerDistance__qkyTg {
+        margin-top: -275px
+    }
+}
+
+.workflow_root__9CiiA .workflow_workflowContainer__5RNqr .workflow_cardContainer__W_rYL .workflow_dot__9QncJ {
+    display: static
+}
+
+.workflow_root__9CiiA .workflow_button___qlV_ {
+    position: absolute;
+    margin-left: calc(50% - 100px);
+    bottom: -25px;
+    width: 200px;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity .5s ease-out
+}
+
+@media(min-width:768px) {
+    .workflow_root__9CiiA .workflow_button___qlV_ {
+        bottom: -100px
+    }
+}
+
+.workflow_root__9CiiA .workflow_button___qlV_.workflow_show__fGwhZ {
+    opacity: 1;
+    transition: opacity 1s ease-out .5s
+}
+
+.workflow_root__9CiiA .workflow_editor__5wj3R {
+    display: block
+}
+
+.workflow_root__9CiiA .workflow_editor__5wj3R .workflow_workflowContainer__5RNqr {
+    margin: auto;
+    display: block;
+    position: relative
+}
+
+.workflow_root__9CiiA .workflow_cardTitle__GyXj3 {
+    display: static
+}

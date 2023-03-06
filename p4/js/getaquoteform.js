@@ -1,0 +1,1 @@
+!function(e){jQuery(document).ready((function(){e((function(){var r=e(".products :checkbox[required]");r.change((function(){r.is(":checked")?r.removeAttr("required"):r.attr("required","required")}))}))}))}(jQuery);

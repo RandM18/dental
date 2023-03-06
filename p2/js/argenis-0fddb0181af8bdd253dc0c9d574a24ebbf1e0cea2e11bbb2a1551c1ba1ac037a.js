@@ -1,0 +1,1 @@
+function scrollVideo(){const o=$("#v0").get(0),c=o.duration;console.log();const n=$(document).scrollTop()-650;o.currentTime=n/($(document).height()-$(window).height())*c*1.2}$(window).scroll((()=>{scrollVideo()}));

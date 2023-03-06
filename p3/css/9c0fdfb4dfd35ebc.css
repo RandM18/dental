@@ -1,0 +1,415 @@
+.infoCard_root__lCuiY {
+    position: relative;
+    color: var(--color-primary-grey);
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+    cursor: pointer;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, .15)
+}
+
+@media(max-width:1199.98px) {
+
+    html[lang=fr] .infoCard_root__lCuiY,
+    html[lang=ko] .infoCard_root__lCuiY,
+    html[lang=pt] .infoCard_root__lCuiY {
+        font-size: .944445rem;
+        line-height: 1.222223rem
+    }
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between
+    }
+}
+
+.infoCard_root__lCuiY.infoCard_isExperienceEditorMode__dk28c .infoCard_cardBottom__E78Ar,
+.infoCard_root__lCuiY.infoCard_isExperienceEditorMode__dk28c .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 {
+    height: auto
+}
+
+.infoCard_root__lCuiY.infoCard_isExperienceEditorMode__dk28c .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd {
+    opacity: 1;
+    top: 0
+}
+
+.infoCard_root__lCuiY.infoCard_isExperienceEditorMode__dk28c .infoCard_cardBottom__E78Ar a {
+    pointer-events: auto
+}
+
+@media(max-width:991.98px) {
+    .infoCard_root__lCuiY.infoCard_hideOnSmall__UV_xe {
+        display: none
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_colorTriangle__yLajF {
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0;
+    right: 0;
+    border-top: none;
+    border-right: 5.625rem solid var(--color-corporate);
+    border-bottom: 1.4375rem solid transparent;
+    border-left: none;
+    z-index: 5
+}
+
+.infoCard_root__lCuiY.infoCard_hardware__G2Jzy .infoCard_colorTriangle__yLajF,
+.infoCard_root__lCuiY.infoCard_other__NXVJ_ .infoCard_colorTriangle__yLajF,
+.infoCard_root__lCuiY.infoCard_software__estgc .infoCard_colorTriangle__yLajF {
+    border-right: 5.625rem solid var(--color-corporate)
+}
+
+.infoCard_root__lCuiY .infoCard_cardTop__nFYIk {
+    z-index: 2;
+    max-height: 225px
+}
+
+.infoCard_root__lCuiY .infoCard_cardTop__nFYIk .infoCard_mediaWrapper__SlL0f {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 1.65rem 1.65rem 0;
+    transition: padding .2s ease-in-out
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardTop__nFYIk .infoCard_mediaWrapper__SlL0f {
+        padding: 1.6rem 1.6rem 0
+    }
+}
+
+@media(max-width:767.98px) {
+    .infoCard_root__lCuiY .infoCard_cardTop__nFYIk .infoCard_mediaWrapper__SlL0f {
+        padding: 1.71875rem 1.71875rem 0
+    }
+}
+
+@media(max-width:767.98px)and (min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardTop__nFYIk .infoCard_mediaWrapper__SlL0f {
+        padding: 1.6666666667rem 1.6666666667rem 0
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_cardTop__nFYIk .infoCard_imageWrapper__yTpSD {
+    max-width: 425px;
+    max-height: 240px;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.infoCard_root__lCuiY .infoCard_cardTop__nFYIk img {
+    opacity: 1;
+    transition: opacity 0s ease-in-out 0s
+}
+
+.infoCard_root__lCuiY .infoCard_cardTop__nFYIk .infoCard_videoLooped__Z_dAa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0s ease-in-out
+}
+
+.infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+    line-height: 1.6;
+    margin: 1.5125rem 0 .6875rem
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        margin: 1.4666666667rem 0 .6666666667rem
+    }
+}
+
+@media(min-width:768px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        font-size: 1.2222222222rem;
+        margin: 2.0625rem 0 1.375rem
+    }
+}
+
+@media(min-width:768px)and (min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        font-size: 1.2222222222rem;
+        margin: 2rem 0 1.3333333333rem
+    }
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        margin: 1.375rem 0
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        margin: 1.3333333333rem 0
+    }
+}
+
+@media(min-width:1200px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        margin: 2.75rem 0 1.375rem
+    }
+}
+
+@media(min-width:1200px)and (min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_title__R9RJ1 {
+        margin: 2.6666666667rem 0 1.3333333333rem
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_cardBottom__E78Ar {
+    padding: 0 1.65rem 1.925rem;
+    position: relative
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar {
+        padding: 0 1.6rem 1.8666666667rem
+    }
+}
+
+@media(max-width:767.98px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar {
+        padding: 0 1.71875rem 1.375rem
+    }
+}
+
+@media(max-width:767.98px)and (min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar {
+        padding: 0 1.6666666667rem 1.3333333333rem
+    }
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar {
+        height: 250px
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 {
+    position: relative;
+    height: calc(250px - 24px);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 1;
+    transition: opacity .2s ease-in-out .3s
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 {
+        justify-content: space-between
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 .infoCard_shortText__kk59g {
+    text-align: center
+}
+
+@media(max-width:767.98px) {
+    html[lang=ja] .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 .infoCard_shortText__kk59g {
+        font-size: .7778rem;
+        line-height: 1.2
+    }
+}
+
+html[lang=ar] .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 .infoCard_shortText__kk59g {
+    text-align: right
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 .infoCard_shortText__kk59g {
+        padding-bottom: 30px
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity .1s ease-in-out 0s;
+    padding-top: 0
+}
+
+@media(min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd {
+        padding-top: 0;
+        top: calc(-250px + 24px);
+        height: calc(250px - 24px);
+        padding-top: 1.375rem
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd {
+        padding-top: 1.3333333333rem
+    }
+}
+
+.infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd .infoCard_longText__8QljB {
+    text-align: left
+}
+
+@media(max-width:991.98px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd .infoCard_longText__8QljB {
+        margin-bottom: 36px
+    }
+}
+
+html[lang=ar] .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd .infoCard_longText__8QljB {
+    text-align: right
+}
+
+@media(min-width:576px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd .infoCard_button__oPkhF a {
+        min-width: 60%
+    }
+}
+
+@media(min-width:768px) {
+    .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd .infoCard_button__oPkhF a {
+        min-width: 11.375rem
+    }
+}
+
+html[lang=de] .infoCard_root__lCuiY .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd .infoCard_button__oPkhF a {
+    font-size: .833334rem
+}
+
+.infoCard_root__lCuiY .infoCard_cardBottom__E78Ar a {
+    pointer-events: none
+}
+
+@media(min-width:992px) {
+
+    .infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardTop__nFYIk .infoCard_mediaWrapper__SlL0f,
+    .infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardTop__nFYIk .infoCard_mediaWrapper__SlL0f {
+        padding: 0;
+        transition: padding .1s ease-in-out
+    }
+}
+
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardTop__nFYIk.infoCard_hasVideo__58S1L img,
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardTop__nFYIk.infoCard_hasVideo__58S1L img {
+    opacity: 0;
+    transition: opacity 0s ease-out .3s
+}
+
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardTop__nFYIk.infoCard_hasVideo__58S1L .infoCard_videoLooped__Z_dAa,
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardTop__nFYIk.infoCard_hasVideo__58S1L .infoCard_videoLooped__Z_dAa {
+    opacity: 1;
+    transition: opacity 0s ease-in-out .3s
+}
+
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardTop__nFYIk:after,
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardTop__nFYIk:after {
+    border-right: 7.25rem solid var(--color-corporate);
+    border-bottom: 1.875rem solid transparent
+}
+
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1,
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardBottom__E78Ar .infoCard_textContainer__0ITu1 {
+    opacity: 0;
+    transition: opacity .1s ease-in-out 0s
+}
+
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd,
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardBottom__E78Ar .infoCard_activeTextContainer__GV8Jd {
+    opacity: 1;
+    transition: opacity .2s ease-in-out .5s
+}
+
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c).infoCard_active__QU_yc .infoCard_cardBottom__E78Ar a,
+.infoCard_root__lCuiY:not(.infoCard_isExperienceEditorMode__dk28c):hover .infoCard_cardBottom__E78Ar a {
+    pointer-events: auto
+}
+
+html[lang=ar] .infoCard_root__lCuiY {
+    text-align: right
+}
+
+@media(max-width:767.98px) {
+    .col .infoCard_root__lCuiY {
+        margin-bottom: 12px
+    }
+}
+
+.infoCardGallery_root__7fWon {
+    padding-bottom: 2.75rem
+}
+
+@media(min-width:992px) {
+    .infoCardGallery_root__7fWon {
+        padding-bottom: 2.6666666667rem
+    }
+}
+
+.infoCardGallery_root__7fWon .infoCardGallery_heading__0L78f,
+.infoCardGallery_root__7fWon .infoCardGallery_subHeading__QwfPJ {
+    text-align: center;
+    margin-bottom: 2.75rem
+}
+
+@media(min-width:992px) {
+
+    .infoCardGallery_root__7fWon .infoCardGallery_heading__0L78f,
+    .infoCardGallery_root__7fWon .infoCardGallery_subHeading__QwfPJ {
+        margin-bottom: 2.6666666667rem;
+        margin-bottom: 3.4375rem
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+
+    .infoCardGallery_root__7fWon .infoCardGallery_heading__0L78f,
+    .infoCardGallery_root__7fWon .infoCardGallery_subHeading__QwfPJ {
+        margin-bottom: 3.3333333333rem
+    }
+}
+
+html[lang=ar] .infoCardGallery_root__7fWon .infoCardGallery_heading__0L78f,
+html[lang=ar] .infoCardGallery_root__7fWon .infoCardGallery_subHeading__QwfPJ {
+    text-align: right
+}
+
+.infoCardGallery_root__7fWon .infoCardGallery_libraScroll___kkLw,
+.infoCardGallery_root__7fWon .infoCardGallery_libraScrollColumn__6Lq8G {
+    width: auto
+}
+
+@media(max-width:767.98px) {
+    .infoCardGallery_root__7fWon .container {
+        padding: 0 12px
+    }
+
+    .infoCardGallery_root__7fWon .col {
+        padding: 0 6px
+    }
+}
+
+@media(max-width:1199.98px) {
+    .infoCardGallery_root__7fWon .container {
+        padding: 0 24px
+    }
+
+    .infoCardGallery_root__7fWon .col {
+        padding: 0 6px
+    }
+}
+
+html[lang=de] .infoCardGallery_root__7fWon {
+    font-size: .833334rem;
+    line-height: 1.05556rem
+}

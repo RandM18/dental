@@ -1,0 +1,67 @@
+.text_root__GZx9R {
+    position: relative;
+    padding: 1.375rem 0
+}
+
+@media(min-width:992px) {
+    .text_root__GZx9R {
+        padding: 1.3333333333rem 0
+    }
+}
+
+@media(min-width:768px) {
+    .text_root__GZx9R {
+        padding: 2.75rem 0
+    }
+}
+
+@media(min-width:768px)and (min-width:992px) {
+    .text_root__GZx9R {
+        padding: 2.6666666667rem 0
+    }
+}
+
+.section .text_root__GZx9R {
+    padding: 0 0 1.375rem
+}
+
+@media(min-width:992px) {
+    .section .text_root__GZx9R {
+        padding: 0 0 1.3333333333rem
+    }
+}
+
+@media(min-width:768px) {
+    .section .text_root__GZx9R {
+        padding: 0 0 2.75rem
+    }
+}
+
+@media(min-width:768px)and (min-width:992px) {
+    .section .text_root__GZx9R {
+        padding: 0 0 2.6666666667rem
+    }
+}
+
+.section .text_root__GZx9R .typeset h1:first-child,
+.section .text_root__GZx9R .typeset h2:first-child,
+.section .text_root__GZx9R .typeset h3:first-child,
+.section .text_root__GZx9R .typeset h4:first-child,
+.section .text_root__GZx9R .typeset h5:first-child,
+.section .text_root__GZx9R .typeset h6:first-child {
+    margin-top: 0
+}
+
+.text_title__CEi8k {
+    margin-bottom: 2.0625rem
+}
+
+@media(min-width:992px) {
+    .text_title__CEi8k {
+        margin-bottom: 2rem
+    }
+}
+
+.text_title__CEi8k.text_center__X2l_d {
+    text-align: center
+}

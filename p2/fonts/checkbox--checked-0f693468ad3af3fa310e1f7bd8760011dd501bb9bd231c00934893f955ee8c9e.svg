@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox--checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Checkout-Process" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkout-Order-Confirmation--Updated-Shipping-Method-Copy-7" transform="translate(-214.000000, -936.000000)">
+            <g id="pay-by-cc" transform="translate(189.000000, 593.000000)">
+                <g id="account-charged--row" transform="translate(0.000000, 74.000000)">
+                    <g id="add-a-cc" transform="translate(0.000000, 47.000000)">
+                        <g id="checkbox--checked" transform="translate(25.000000, 222.000000)">
+                            <rect id="Rectangle-97-Copy-6" stroke="#DBDAD9" fill="#FFFFFF" x="0.5" y="0.5" width="19" height="19" rx="3"></rect>
+                            <path d="M15.6149335,6.38770991 C15.1007367,5.87076336 14.2675729,5.87076336 13.753376,6.38770991 L9.1063566,11.0484779 L7.24479911,9.18417071 C6.73060228,8.66859903 5.8988133,8.66859903 5.38461648,9.18417071 C4.87179451,9.6997424 4.87179451,10.5342811 5.38461648,11.0484779 L8.174203,13.8463136 C8.68839982,14.3605104 9.5201888,14.3605104 10.0343856,13.8463136 L15.6149335,8.25201711 C16.1277555,7.73644543 16.1277555,6.90190673 15.6149335,6.38770991" id="Fill-1" fill="#777777"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

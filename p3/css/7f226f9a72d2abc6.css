@@ -1,0 +1,22 @@
+.overlay_container__tsOVS {
+    text-align: center;
+    border: 2px dashed var(--color-light-grey);
+    padding-bottom: 4rem
+}
+
+.overlay_value__Zkdm9 {
+    background: var(--color-light-grey);
+    color: var(--color-corporate);
+    padding: 3px 5px;
+    border-radius: 5px;
+    display: inline-block
+}
+
+.overlay_placeholderContainer__aBlND {
+    display: flex;
+    justify-content: center
+}
+
+.overlay_hide__hCI26 {
+    display: none
+}

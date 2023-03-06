@@ -1,0 +1,37 @@
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L svg {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    z-index: 2;
+    display: block
+}
+
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L svg polygon.diagonalTransparent_primaryPolygon__9SAlb {
+    fill: #fff
+}
+
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L svg polygon.diagonalTransparent_cornerPolygon__HDWp7 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    fill: var(--color-medium-grey-80)
+}
+
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L.light svg polygon.diagonalTransparent_primaryPolygon__9SAlb {
+    fill: var(--color-white)
+}
+
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L.grey svg polygon.diagonalTransparent_primaryPolygon__9SAlb {
+    fill: var(--color-light-grey-40)
+}
+
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L.dark svg polygon.diagonalTransparent_primaryPolygon__9SAlb {
+    fill: var(--color-dark)
+}
+
+.diagonalTransparent_root__TQJEs .diagonalTransparent_diagonalTransparent__me_6L.diagonalTransparent_diagonalTop__kjcB7 svg {
+    bottom: auto;
+    top: -1.5px
+}

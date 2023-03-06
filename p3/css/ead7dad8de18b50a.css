@@ -1,0 +1,157 @@
+.selectorBanner_root__bWZrO {
+    color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform .25s cubic-bezier(.785, .135, .15, .86);
+    transform: translateY(-100%);
+    z-index: 1002
+}
+
+.selectorBanner_root__bWZrO.selectorBanner_isOpen__Fw29p {
+    transform: translateY(0)
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_container__PXfjt {
+    padding: 21px 24px 24px
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_wrapper__4rH4C {
+    display: grid;
+    grid-template-areas: "text close" "select select";
+    row-gap: 28px
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_text__gGgh_ {
+    position: relative;
+    grid-area: text;
+    place-self: center start;
+    font-size: .7777777778rem;
+    line-height: 1.22222rem
+}
+
+@media(min-width:992px) {
+    .selectorBanner_root__bWZrO .selectorBanner_text__gGgh_ {
+        font-size: .7777777778rem
+    }
+}
+
+@media(min-width:768px) {
+    .selectorBanner_root__bWZrO .selectorBanner_text__gGgh_ {
+        font-size: .8888888889rem
+    }
+}
+
+@media(min-width:768px)and (min-width:992px) {
+    .selectorBanner_root__bWZrO .selectorBanner_text__gGgh_ {
+        font-size: .8888888889rem
+    }
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_buttonClose__Bt_fc {
+    grid-area: close;
+    place-self: center end;
+    width: 18px;
+    box-sizing: content-box;
+    line-height: 1em;
+    cursor: pointer
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_buttonClose__Bt_fc svg path {
+    fill: #dddddb
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_buttonClose__Bt_fc:hover svg path {
+    fill: var(--color-light-grey-80)
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ {
+    grid-area: select;
+    place-self: center start;
+    width: 100%;
+    border-bottom-color: var(--color-medium-grey);
+    transition: color .15s ease-in-out, border-color .15s ease-in-out;
+    font-size: .8888888889rem
+}
+
+@media(min-width:992px) {
+    .selectorBanner_root__bWZrO .selectorBanner_select__m97YQ {
+        font-size: .8888888889rem
+    }
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ .selectorBanner_options__o47rp {
+    color: var(--color-primary-grey)
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ>div:first-of-type {
+    padding: 4px 0
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ>div:first-of-type svg {
+    bottom: 5px;
+    right: 0
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ>div:first-of-type svg path {
+    fill: var(--color-medium-grey);
+    transition: fill .15s ease-in-out
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ.open,
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ:hover {
+    border-bottom-color: var(--color-light-grey-80)
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ.open svg path,
+.selectorBanner_root__bWZrO .selectorBanner_select__m97YQ:hover svg path {
+    fill: var(--color-light-grey-80) !important
+}
+
+.selectorBanner_root__bWZrO .selectorBanner_buttonSubmit__UQnhG {
+    font-size: .8888888889rem
+}
+
+@media(min-width:992px) {
+    .selectorBanner_root__bWZrO .selectorBanner_buttonSubmit__UQnhG {
+        font-size: .8888888889rem
+    }
+}
+
+@media(min-width:768px) {
+    .selectorBanner_root__bWZrO .selectorBanner_container__PXfjt {
+        padding: 15px 36px 15px 48px
+    }
+
+    .selectorBanner_root__bWZrO .selectorBanner_wrapper__4rH4C {
+        position: relative;
+        display: flex;
+        justify-content: flex-start
+    }
+
+    .selectorBanner_root__bWZrO .selectorBanner_text__gGgh_ {
+        max-width: 28%
+    }
+
+    .selectorBanner_root__bWZrO .selectorBanner_select__m97YQ {
+        margin: 0 20px;
+        width: 240px
+    }
+
+    .selectorBanner_root__bWZrO .selectorBanner_buttonClose__Bt_fc {
+        position: absolute;
+        right: 0
+    }
+
+    .selectorBanner_root__bWZrO .selectorBanner_buttonClose__Bt_fc svg path {
+        fill: var(--color-medium-grey);
+        transition: fill .15s ease-in-out
+    }
+}
+
+@media(min-width:1200px) {
+    .selectorBanner_root__bWZrO .selectorBanner_wrapper__4rH4C {
+        justify-content: center
+    }
+}

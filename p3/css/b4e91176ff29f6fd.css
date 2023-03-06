@@ -1,0 +1,413 @@
+.heroSoftware_root__znTzy {
+    position: relative;
+    height: 165vh
+}
+
+@media(min-width:992px)and (max-width:1599.98px) {
+    .heroSoftware_root__znTzy {
+        padding-top: var(--locale-selector-height);
+        transition: padding-top .25s cubic-bezier(.785, .135, .15, .86)
+    }
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w {
+    height: 110vh;
+    width: 100%;
+    position: sticky;
+    top: 0
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_backgroundImage__x_nnj {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transform: translateY(0);
+    transition: transform .6s ease-out
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_backgroundImage__x_nnj img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_diagonalContainer__A04tG {
+    height: 55%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    top: 50%;
+    transition: top .6s ease-out
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_diagonalContainer__A04tG .heroSoftware_diagonal__bsukJ {
+    bottom: auto;
+    padding-top: 0;
+    position: static;
+    margin-bottom: -1px
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_diagonalContainer__A04tG .heroSoftware_diagonal__bsukJ polygon {
+    fill: var(--color-lighter-grey)
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_diagonalContainer__A04tG .heroSoftware_diagonalBackgroundColor__vJcBw {
+    background-color: var(--color-lighter-grey);
+    width: 100%;
+    height: 100%
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_sectionHeader__gpdOg {
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    opacity: 0;
+    transition: top .6s ease-out, transform .6s ease-out, opacity .6s ease-out
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_sectionHeader__gpdOg h1 {
+    font-size: 1.2222222222rem;
+    transition: margin-bottom .6s ease-out
+}
+
+@media(min-width:992px) {
+    .heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_sectionHeader__gpdOg h1 {
+        font-size: 1.2222222222rem
+    }
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD {
+    position: absolute;
+    transform: scale(.8);
+    top: calc(65% - 32.5vw);
+    left: calc(50% - 30vw);
+    z-index: 12;
+    transition: transform .6s ease-out, left .6s ease-out, top .6s ease-out
+}
+
+@media(min-width:1200px) {
+    .heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD {
+        transform: scale(1);
+        top: calc(62.5% - 25vw)
+    }
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD img {
+    height: auto;
+    width: 60vw
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD .heroSoftware_video__dywH4 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    height: AUTO;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 77%
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD .heroSoftware_video__dywH4:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: var(--color-dark);
+    opacity: .6;
+    height: 98.5%;
+    width: 46.4vw;
+    left: 5.28vw;
+    display: block;
+    margin: auto;
+    transition: opacity .6s ease-out;
+    opacity: 0
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj {
+    transform: scale(.8);
+    top: calc(65% - 25vw);
+    left: calc(50% - 22.5vw)
+}
+
+@media(min-width:1200px) {
+    .heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj {
+        transform: scale(1);
+        top: calc(65% - 26vw)
+    }
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj img {
+    height: auto;
+    width: 45vw
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj .heroSoftware_video__dywH4 {
+    width: 94%;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj .heroSoftware_video__dywH4:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: var(--color-dark);
+    opacity: .6;
+    height: 98%;
+    width: 42.57vw;
+    left: 0;
+    display: block;
+    margin: auto;
+    transition: opacity .6s ease-out;
+    opacity: 0
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_heroTitle__zgTqp {
+    position: absolute;
+    left: 15%;
+    top: 80%;
+    width: 35%;
+    max-width: 585px;
+    opacity: 0;
+    transition: top .6s ease-out, opacity .6s ease-out;
+    z-index: 5;
+    color: var(--color-white)
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_heroTitle__zgTqp h2 {
+    font-size: 1.88889rem;
+    line-height: 1.2
+}
+
+@media(min-width:1600px) {
+    .heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_heroTitle__zgTqp h2 {
+        font-size: 2.66667rem
+    }
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_contentContainer__3kRUs {
+    position: absolute;
+    width: 100%;
+    padding-top: 24px;
+    top: 100vh;
+    text-align: center;
+    z-index: 12;
+    transition: top .6s ease-out, opacity .6s ease-out;
+    opacity: 0
+}
+
+.heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_contentContainer__3kRUs .heroSoftware_content__3Sx57 {
+    width: 50%;
+    margin: 0 auto 36px
+}
+
+@media(min-width:1600px) {
+    .heroSoftware_root__znTzy .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_contentContainer__3kRUs .heroSoftware_content__3Sx57 {
+        margin-bottom: 48px
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_heroSoftwareContainer__2dE0w .heroSoftware_backgroundImage__x_nnj {
+    transform: translateY(-25vh)
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_diagonalContainer__A04tG {
+    top: 45%
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_sectionHeader__gpdOg {
+    top: 15%;
+    opacity: 1
+}
+
+@supports(-ms-ime-align:auto) {
+    .heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_sectionHeader__gpdOg {
+        top: 20%
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_screenContainer__HMXrD {
+    left: calc(75% - 30vw);
+    top: calc(60% - 25vw);
+    transform: scale(.5)
+}
+
+@media(min-width:1600px) {
+    .heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_screenContainer__HMXrD {
+        top: calc(60% - 25vw);
+        transform: scale(.65)
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_screenContainer__HMXrD .heroSoftware_video__dywH4:after {
+    opacity: 0
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj {
+    transform: scale(.6);
+    left: calc(75% - 20vw);
+    top: calc(60% - 25vw)
+}
+
+@media(min-width:1200px) {
+    .heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj {
+        top: calc(60% - 25vw);
+        transform: scale(.65)
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj .heroSoftware_video__dywH4:after {
+    opacity: 0
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_heroTitle__zgTqp {
+    top: 37.5%;
+    left: 5%;
+    width: 30vw;
+    opacity: 1
+}
+
+@media(min-width:1200px) {
+    .heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_heroTitle__zgTqp {
+        top: 35%;
+        left: 15%
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_contentContainer__3kRUs {
+    top: 70vh;
+    opacity: 1
+}
+
+@media(min-width:1600px) {
+    .heroSoftware_root__znTzy.heroSoftware_animate__c81hf .heroSoftware_contentContainer__3kRUs {
+        top: 80vh
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q {
+    height: auto
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_backgroundImage__x_nnj {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_diagonalContainer__A04tG {
+    bottom: 0;
+    top: auto
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_heroSoftwareContainer__2dE0w {
+    height: auto;
+    position: relative
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj {
+    position: relative;
+    padding: 96px 12px 60px;
+    z-index: 10
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_sectionHeader__gpdOg {
+    position: relative
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_sectionHeader__gpdOg h3 {
+    font-size: 1.2222222222rem;
+    margin-bottom: auto
+}
+
+@media(min-width:992px) {
+    .heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_sectionHeader__gpdOg h3 {
+        font-size: 1.2222222222rem
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_heroTitle__zgTqp {
+    position: static;
+    width: 90%;
+    margin: 24px auto
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_heroTitle__zgTqp h2 {
+    text-align: center;
+    font-size: 1.4444444444rem
+}
+
+@media(min-width:992px) {
+    .heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_heroTitle__zgTqp h2 {
+        font-size: 1.4444444444rem
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD {
+    position: static;
+    margin: 48px auto 24px;
+    transform: scale(1);
+    max-width: 600px
+}
+
+@media(min-width:992px) {
+    .heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD {
+        max-width: 650px
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj {
+    width: 90%;
+    margin: 0 auto;
+    transform: scale(.9)
+}
+
+@media(min-width:992px) {
+    .heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj {
+        max-width: 500px
+    }
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD.heroSoftware_iMacScreen__NW0Yj .heroSoftware_video__dywH4:after {
+    display: none
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD img {
+    width: 100%;
+    height: 100%
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD .heroSoftware_video__dywH4 {
+    opacity: 1
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_screenContainer__HMXrD .heroSoftware_video__dywH4:after {
+    display: none
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_contentContainer__3kRUs {
+    position: relative;
+    top: auto;
+    padding-top: 0
+}
+
+.heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_contentContainer__3kRUs .heroSoftware_content__3Sx57 {
+    width: 90%;
+    line-height: 1.2;
+    font-size: .7777777778rem
+}
+
+@media(min-width:992px) {
+    .heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_contentContainer__3kRUs .heroSoftware_content__3Sx57 {
+        font-size: .7777777778rem;
+        font-size: 1.2222222222rem
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+    .heroSoftware_root__znTzy.heroSoftware_isMobile__AWh4q .heroSoftware_contentWrapper__dcLJj .heroSoftware_contentContainer__3kRUs .heroSoftware_content__3Sx57 {
+        font-size: 1.2222222222rem
+    }
+}

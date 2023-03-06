@@ -1,0 +1,53 @@
+.collapseWrapper_root__vtcmS {
+    position: relative;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+    transition: height .5s ease-in-out 50ms
+}
+
+.collapseWrapper_root__vtcmS.collapseWrapper_contentIsVisible__aGBaD {
+    overflow: visible
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseWrapperContent__cJBIl {
+    opacity: 1;
+    transition: opacity .5s ease-in-out
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseWrapperContent__cJBIl.collapseWrapper_collapsed__tXBuj {
+    opacity: 0;
+    transition: opacity .5s ease-in-out
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseButton__QRY4I {
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    z-index: 20;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid var(--color-primary-grey-20);
+    background-color: var(--color-white)
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseButton__QRY4I .collapseWrapper_iconArrow__jzzGm {
+    width: 15px;
+    height: 15px;
+    transition: transform .25s ease-in-out
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseButton__QRY4I .collapseWrapper_iconArrow__jzzGm path {
+    fill: var(--color-primary-grey)
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseButton__QRY4I .collapseWrapper_iconArrow__jzzGm.collapseWrapper_open__3hjwD {
+    transform: rotate(180deg)
+}
+
+.collapseWrapper_root__vtcmS .collapseWrapper_collapseButton__QRY4I.collapseWrapper_hideControl__0NGqi {
+    display: none
+}

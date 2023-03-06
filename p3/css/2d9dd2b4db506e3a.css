@@ -1,0 +1,33 @@
+.mobileSearchField_root__up50l {
+    background-color: var(--color-light-grey-40);
+    padding-left: 1.1rem;
+    padding-right: 1.1rem
+}
+
+@media(min-width:992px) {
+    .mobileSearchField_root__up50l {
+        padding-left: 1.0666666667rem;
+        padding-right: 1.0666666667rem
+    }
+}
+
+.mobileSearchField_root__up50l form input {
+    height: 48px;
+    font-family: var(--font-family);
+    padding: 0 3.4375rem 0 2.0625rem
+}
+
+.mobileSearchField_root__up50l form input::placeholder {
+    color: var(--color-primary-grey-40);
+    font-style: italic
+}
+
+@media(min-width:992px) {
+    .mobileSearchField_root__up50l form input {
+        padding: 0 3.3333333333rem 0 2rem
+    }
+}
+
+.mobileSearchField_root__up50l svg path {
+    fill: var(--color-medium-grey)
+}

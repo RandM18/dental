@@ -1,0 +1,37 @@
+.diagonal_root__fUD98 .diagonal_diagonal__ym8Wx svg {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    z-index: 2;
+    display: block
+}
+
+.diagonal_root__fUD98 .diagonal_diagonal__ym8Wx svg polygon.diagonal_primaryPolygon__su8P1 {
+    fill: #fff
+}
+
+.diagonal_root__fUD98 .diagonal_diagonal__ym8Wx svg polygon.diagonal_cornerPolygon__E_Y4_ {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    fill: var(--color-medium-grey-80)
+}
+
+.diagonal_root__fUD98 .diagonal_diagonal__ym8Wx.light svg polygon.diagonal_primaryPolygon__su8P1 {
+    fill: var(--color-white)
+}
+
+.diagonal_root__fUD98 .diagonal_diagonal__ym8Wx.grey svg polygon.diagonal_primaryPolygon__su8P1 {
+    fill: var(--color-light-grey-40)
+}
+
+.diagonal_root__fUD98 .diagonal_diagonal__ym8Wx.dark svg polygon.diagonal_primaryPolygon__su8P1 {
+    fill: var(--color-dark)
+}
+
+.diagonal_root__fUD98.diagonal_diagonalTop__bvEYT .diagonal_diagonal__ym8Wx svg {
+    bottom: auto;
+    top: -1px
+}

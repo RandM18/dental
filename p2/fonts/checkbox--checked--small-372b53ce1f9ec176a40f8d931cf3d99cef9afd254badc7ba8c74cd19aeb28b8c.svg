@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox--checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2-Orders" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Batch-Return-Orders----step-2" transform="translate(-242.000000, -417.000000)">
+            <g id="checkbox--checked" transform="translate(242.000000, 417.000000)">
+                <g id="checkbox--unchecked" fill="#FFFFFF" stroke="#DBDAD9">
+                    <rect id="Rectangle" x="0.5" y="0.5" width="14" height="14" rx="3"></rect>
+                </g>
+                <g id="check" transform="translate(2.000000, 3.000000)" fill="#777777">
+                    <path d="M11.1158585,1.2650693 C10.6016617,0.748122762 9.76849786,0.748122762 9.25430103,1.2650693 L4.6072816,5.92583732 L2.74572411,4.06153011 C2.23152728,3.54595843 1.3997383,3.54595843 0.885541476,4.06153011 C0.372719508,4.57710179 0.372719508,5.41164049 0.885541476,5.92583732 L3.675128,8.72367298 C4.18932482,9.23786981 5.0211138,9.23786981 5.53531063,8.72367298 L11.1158585,3.12937651 C11.6286805,2.61380483 11.6286805,1.77926613 11.1158585,1.2650693" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

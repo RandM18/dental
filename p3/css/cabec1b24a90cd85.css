@@ -1,0 +1,114 @@
+.testimonial_root__j7Qz_ {
+    position: relative
+}
+
+.testimonial_root__j7Qz_:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    background: var(--color-white);
+    height: 2.75rem
+}
+
+@media(min-width:992px) {
+    .testimonial_root__j7Qz_:before {
+        height: 2.6666666667rem;
+        height: 5.5rem
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+    .testimonial_root__j7Qz_:before {
+        height: 5.3333333333rem
+    }
+}
+
+@media(min-width:992px) {
+    .testimonial_root__j7Qz_ {
+        padding-bottom: 5.5rem
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+    .testimonial_root__j7Qz_ {
+        padding-bottom: 5.3333333333rem
+    }
+}
+
+.testimonial_right___i29w {
+    flex-direction: row-reverse
+}
+
+.testimonial_visual__EOrdt {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+    margin-left: -36px
+}
+
+@media(min-width:992px) {
+    .testimonial_visual__EOrdt {
+        margin-left: -48px
+    }
+}
+
+@media(min-width:1200px) {
+    .testimonial_visual__EOrdt {
+        margin-left: auto;
+        width: 75%;
+        width: calc(100% + 48px)
+    }
+}
+
+@media screen and (min-width:1740px) {
+    .testimonial_visual__EOrdt {
+        width: calc(100% + 50vw + 48px-870px)
+    }
+}
+
+@media(min-width:1200px) {
+    .testimonial_left__STx8a .testimonial_visual__EOrdt {
+        transform: translateX(-48px)
+    }
+}
+
+@media screen and (min-width:1740px) {
+    .testimonial_left__STx8a .testimonial_visual__EOrdt {
+        transform: translateX(870px) translateX(-50vw);
+        transform: translateX(calc(870px - 50vw - 48px))
+    }
+}
+
+.testimonial_visualMedia__LO_5j {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 60.22%;
+    overflow: hidden
+}
+
+@media(min-width:1200px) {
+    .testimonial_visualMedia__LO_5j {
+        padding-bottom: 0;
+        padding-top: 56.25%
+    }
+}
+
+.testimonial_visualMedia__LO_5j img,
+.testimonial_visualMedia__LO_5j span,
+.testimonial_visualMedia__LO_5j video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}
+
+.testimonial_content__dd_tO {
+    display: flex;
+    align-items: center
+}

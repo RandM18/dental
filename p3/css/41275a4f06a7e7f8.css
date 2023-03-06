@@ -1,0 +1,41 @@
+.imageTitleText_title__GTCRM {
+    line-height: 2.2rem;
+    font-size: 1.4444444444rem;
+    text-align: center
+}
+
+@media(min-width:992px) {
+    .imageTitleText_title__GTCRM {
+        font-size: 1.4444444444rem
+    }
+}
+
+@media(min-width:768px) {
+    .imageTitleText_title__GTCRM {
+        text-align: left
+    }
+}
+
+@media(min-width:992px) {
+    .imageTitleText_title__GTCRM {
+        font-size: 1.6666666667rem
+    }
+}
+
+@media(min-width:992px)and (min-width:992px) {
+    .imageTitleText_title__GTCRM {
+        font-size: 2rem
+    }
+}
+
+html[lang=ar] .imageTitleText_title__GTCRM {
+    text-align: right
+}
+
+.imageTitleText_content__HoRcu {
+    margin-top: 3vw
+}
+
+html[lang=ar] .imageTitleText_content__HoRcu {
+    text-align: right
+}

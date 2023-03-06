@@ -1,0 +1,71 @@
+.teaserBanner_root__iLb3C {
+    text-align: center
+}
+
+html[lang=ar] .teaserBanner_root__iLb3C {
+    text-align: right
+}
+
+.teaserBanner_root__iLb3C .teaserBanner_container__9SSu_ {
+    padding: 4.5rem 24px;
+    max-width: 650px;
+    margin: 0 auto
+}
+
+@media(min-width:768px) {
+    .teaserBanner_root__iLb3C .teaserBanner_container__9SSu_.teaserBanner_imageOnLeft__HVj19 {
+        display: flex
+    }
+
+    .teaserBanner_root__iLb3C .teaserBanner_container__9SSu_.teaserBanner_imageOnLeft__HVj19 .teaserBanner_image__g7lzn {
+        margin-bottom: 0;
+        margin-right: 1.875rem;
+        margin-left: 0;
+        flex: 0 0 auto;
+        height: 100%
+    }
+
+    .teaserBanner_root__iLb3C .teaserBanner_container__9SSu_.teaserBanner_imageOnLeft__HVj19 .teaserBanner_content__Y3aW8 {
+        text-align: left;
+        flex: 1 1 auto
+    }
+}
+
+.teaserBanner_root__iLb3C .teaserBanner_image__g7lzn {
+    display: block;
+    margin: 0 auto 1.75rem;
+    max-width: 100%;
+    height: auto
+}
+
+@media(min-width:768px) {
+    .teaserBanner_root__iLb3C .teaserBanner_image__g7lzn {
+        margin-bottom: 1.3125rem
+    }
+}
+
+.teaserBanner_root__iLb3C .teaserBanner_title__dM3y8 {
+    font-size: 1.44444rem;
+    line-height: 1.77778rem;
+    margin-bottom: 1.875rem
+}
+
+@media(min-width:768px) {
+    .teaserBanner_root__iLb3C .teaserBanner_title__dM3y8 {
+        margin-bottom: 1.5rem
+    }
+}
+
+.teaserBanner_root__iLb3C .teaserBanner_text___BfP6 {
+    font-size: 1rem;
+    line-height: 1.33333rem;
+    margin-bottom: 2rem
+}
+
+.teaserBanner_root__iLb3C .teaserBanner_linkWrapper__vSqgL .link.arrow {
+    font-size: .88889rem
+}
+
+.dark .teaserBanner_root__iLb3C .teaserBanner_linkWrapper__vSqgL .link.arrow {
+    color: var(--color-white)
+}
