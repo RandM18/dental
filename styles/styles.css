@@ -137,6 +137,7 @@ textarea.page1textbox {
   left: 0;
   width: 100%;
   transition: 0.1s;
+  z-index: 9999;
 }
 .header.scroll {
   background: #F5F4F6;
