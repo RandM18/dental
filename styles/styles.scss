@@ -85,13 +85,15 @@ textarea.page1textbox {
     color: #FFFFFF;
     text-decoration: none;
 
-    &.blue {
-        background-color: #003B99;
-    }
+
 }
 
 .btn:hover {
-    background-color: #0173a3;
+    background-color: #003B99;
+}
+
+.btn:disabled {
+    background: rgba(0, 155, 223, 0.4);
 }
 
 .aic {
@@ -249,4 +251,31 @@ textarea.page1textbox {
 
 .main__item {
     margin-bottom: 64px;
+}
+
+
+
+.form_thankyou {
+    display: none;
+    max-width: 426px;
+    margin: 0 auto;
+    text-align: center;
+    // .form_thankyou__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+
+
+        text-transform: capitalize;
+
+        color: #231F20;
+        margin-bottom: 32px;
+    }
+
+    p {
+        color: #322F29;
+        margin-bottom: 32px;
+
+    }
 }

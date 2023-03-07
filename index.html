@@ -81,21 +81,21 @@
                     <div class="main__item">
                         <div class="main__poster"><img src="images/poster1.png" alt="Poster1"></div>
                         <div class="main__btns d-flex justify-content-center">
-                            <a href="#" class="btn blue">Learn more</a>
+                            <a href="#" class="btn">Learn more</a>
                             <a href="#" class="btn">Learn more</a>
                         </div>
                     </div>
                     <div class="main__item">
                         <div class="main__poster"><img src="images/poster2.png" alt="Poster2"></div>
                         <div class="main__btns d-flex justify-content-center">
-                            <a href="#" class="btn blue">Learn more</a>
+                            <a href="#" class="btn">Learn more</a>
                             <a href="#" class="btn">Learn more</a>
                         </div>
                     </div>
                     <div class="main__item">
                         <div class="main__poster"><img src="images/poster3.png" alt="Poster3"></div>
                         <div class="main__btns d-flex justify-content-center">
-                            <a href="#" class="btn blue">Learn more</a>
+                            <a href="#" class="btn">Learn more</a>
                             <a href="#" class="btn">Learn more</a>
                         </div>
                     </div>
@@ -108,42 +108,42 @@
             <div class="contactus__title">
                 Contact Us
             </div>
-            <form action="" class="contactus__form">
+            <form action="" class="contactus__form" id="form">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="contactus__input">
                             <div class="contactus__input_label">Full Name</div>
-                            <input type="text" class="page1textbox" placeholder="Your name">
+                            <input type="text" class="page1textbox" placeholder="Your name" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="contactus__input">
                             <div class="contactus__input_label">Company Name</div>
-                            <input type="text" class="page1textbox" placeholder="Company name">
+                            <input type="text" class="page1textbox" placeholder="Company name" required>
                         </div>
                     </div>
                     <div class="col-md-8">
                         <div class="contactus__input">
                             <div class="contactus__input_label">Address</div>
-                            <input type="text" class="page1textbox" placeholder="Address">
+                            <input type="text" class="page1textbox" placeholder="Address" required>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="contactus__input">
                             <div class="contactus__input_label">ZIP</div>
-                            <input type="text" class="page1textbox" placeholder="Zip">
+                            <input type="text" class="page1textbox" placeholder="Zip" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="contactus__input">
                             <div class="contactus__input_label">Phone</div>
-                            <input type="text" class="page1textbox" placeholder="Your phone">
+                            <input type="text" class="page1textbox" placeholder="Your phone" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="contactus__input">
                             <div class="contactus__input_label">Email</div>
-                            <input type="text" class="page1textbox" placeholder="Your email">
+                            <input type="text" class="page1textbox" placeholder="Your email" required>
                         </div>
                     </div>
                     <div class="mycol-12">
@@ -161,6 +161,11 @@
                 </div>
 
             </form>
+            <div class="form_thankyou" id="thankyou">
+                <div class="form_thankyou__title">Thank you!</div>
+                <p>Your message has been sent saccesfully!</p>
+                <button class="btn" type="button">Ok</button>
+            </div>
         </div>
     </div>
     <footer class="footer">
