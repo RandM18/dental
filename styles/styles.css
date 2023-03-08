@@ -176,6 +176,7 @@ textarea.page1textbox {
   padding-top: 130px;
   padding-bottom: 130px;
   background: #F5F4F6 url("../images/header_bg.png") no-repeat top left/45%;
+  height: 100vh;
 }
 @media (max-width: 768px) {
   .head {
@@ -266,4 +267,45 @@ textarea.page1textbox {
 .form_thankyou p {
   color: #322F29;
   margin-bottom: 32px;
+}
+
+.laptop-wrapper{
+  min-width: 400px;
+}
+
+.laptop-wrapper .video-bg{
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 72%;
+}
+
+.laptop-wrapper .video-bg > img{
+  width:100%;
+  height: 100%;
+}
+
+.header-title{
+  position: relative;
+  transition: all .75s ease;
+}
+.laptop-inner{
+  position: absolute;
+  transform: scale(.4) translateX(-60%);
+  transition: all .75s ease-out;
+  top: 0px;
+  left: 0px;
+}
+
+.laptop-inner.scroll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(1) translateX(-50%) translateY(-40%);
+  transform-origin: center center;
+}
+
+.header-title.scroll{
+  transform: translateX(200%);
 }

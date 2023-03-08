@@ -280,3 +280,15 @@ textarea.page1textbox {
 
     }
 }
+
+.laptop-wrapper{
+    position: relative;
+
+    .video-bg{
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 77%;
+    }
+}
